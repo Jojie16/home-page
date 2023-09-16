@@ -1,0 +1,169 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    color: #FFFFFF;
+    height: 100vh;
+    background-image: linear-gradient( #040D12, #183D3D , #5C8374, #93B1A6);
+    margin: 0;
+    padding: 0;
+    }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+li a:hover.login{
+    background-color: #111;
+}
+
+/* navigation bars active click*/
+
+.home {
+    background-color: #111;
+}
+
+.about{
+    background-color: #111;
+}
+
+.contacts {
+    background-color: #111;
+}
+
+.news {
+    background-color: #111;
+}
+
+.avatar {
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+    margin-right: 10px;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    float: right;
+}
+
+.section-left{
+
+    margin: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    width: 50%;
+    float: left;
+    text-align: left;
+    background-color: #555;
+    color: #fff;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 50px;
+    text-overflow: hidden;
+    
+
+}
+
+.head1 {
+
+    text-align: center;
+}
+
+.section-left {
+
+    float: left;
+    background-color: #555;
+
+}
+
+.section-right {
+
+    font-family:'Courier New', Courier, monospace;
+    background-color: #666;
+    border-radius: 50px;
+    float: right;
+    margin-top: 10px;
+    text-overflow: hidden;
+    height: 100%;
+    width: 45%;
+    margin-bottom: 20px;
+
+
+}
+
+.section-right a{
+
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.section-right li a{
+
+    margin: 3px;
+    padding: 3px;
+    justify-content: space-between;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.head2 {
+    
+    text-align: center;
+
+
+}
+
+.section-left2 {
+
+    margin: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    width: 50%;
+    float: left;
+    text-align: left;
+    background-color: #555;
+    color: #fff;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 50px;
+    text-overflow: hidden;
+
+}
+
+footer {
+
+    margin-top: 5px;
+    background-color: #111;
+    font-family: 'Courier New', Courier, monospace;
+    clear: both;
+}
+
+#cr {
+
+    text-align: center;
+    
+}
